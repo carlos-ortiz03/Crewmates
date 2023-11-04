@@ -1,0 +1,93 @@
+/* CSS Reset */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Set the width and height to 100% */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+
+/* App container */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Navigation container */
+.navigation {
+  flex: 15;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+/* Content container */
+.content {
+  flex: 85;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white; /* Set white text color */
+}
+
+.page {
+  text-align: center;
+  margin: auto;
+}
+
+/* Placeholder crewmate card */
+.crewmate-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+  background-color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Input fields in CreateCrewmate.js */
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff; /* Set the color for links, you can adjust it as needed */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
